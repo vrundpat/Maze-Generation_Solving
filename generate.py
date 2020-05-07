@@ -43,12 +43,11 @@ class Tiles(object):
 
     def checkNeighbors(self, num):
         """
-        Uses a breath-first search algorithm to check if neighbors have been visited or not
+        Check if neighbors of a node have been visited.
         :param num: index of current tile
-        :return: List of neighbors that have NOT been visited yet by the AI
+        :return: List of neighbors that have NOT been visited yet by the algorithm
         """
         empty = []
-        # Breadth First Searching using indices
         try:
             if not tiles[num + 1].visited and num + 1 <= len(tiles):
                 if tiles[num + 1].y != 0:
@@ -73,8 +72,8 @@ class Tiles(object):
         """
         Removes corresponding wall using index differences between the previous and current tiles
         and re-draws the updates cells accordingly
-        :param tile1: Previous Tile the AI WAS on
-        :param tile2: Current Tile the AI IS on
+        :param tile1: Previous Tile the algorithm WAS on
+        :param tile2: Current Tile the algorithm IS on
         :return: None
         """
         if tile1.count - tile2.count == -1:
