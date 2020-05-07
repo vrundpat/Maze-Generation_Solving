@@ -7,4 +7,5 @@ Run instructions:
 - run main.py
 
 Run time instructions:
+- Note: Wait for the maze be be generated before attempting to solve the maze
 - To solve the maze (from the top-left to the bottom right), press 's' during run time.
