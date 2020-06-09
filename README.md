@@ -1,7 +1,7 @@
 # Maze-Generation_Solving
 
 A complex-maze generator using Recursive-Backtracking and modified version of the Randomized-Prims's Algrithm, accompanied by
-an A* algorithm to solve the mazes efficiently. Both aspects (generation and solving are visualized using a pygame GUI). 
+an A* algorithm to solve the mazes efficiently. Visualizations of the both the generaion and solving of the maze is done via a PyGame GUI. 
 
 Run instructions:
 - run main.py
